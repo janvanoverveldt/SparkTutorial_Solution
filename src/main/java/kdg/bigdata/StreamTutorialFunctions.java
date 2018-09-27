@@ -37,7 +37,7 @@ public class StreamTutorialFunctions {
         // Als je de gecompileerde code  op een productieve omgeving zoals AWS of clouderaVM wil uitvoeren wordt de master default ingesteld door die omgeving.
         // Daarom geven we geen setMaster mee als we niet lokaal draaien.
         if (forceLocal) {
-            conf.setMaster("local[2]");
+            conf.setMaster("local[*]");
         }
         ssc = new JavaStreamingContext(conf, new Duration(batchDuration));
         ssc.checkpoint(".");
@@ -57,6 +57,7 @@ public class StreamTutorialFunctions {
             e.printStackTrace();
         }
     }
+
 
     public void streamWordCountWithState(String host, int port, String op) throws Exception {
 

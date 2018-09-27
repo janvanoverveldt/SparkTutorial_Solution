@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SparkTutorial.iml" filepath="$PROJECT_DIR$/SparkTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkTutorial_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkTutorial_main.iml" group="SparkTutorial" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkTutorial_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkTutorial_test.iml" group="SparkTutorial" />
     </modules>
   </component>
 </project>

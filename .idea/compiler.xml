@@ -21,6 +21,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="SparkTutorial" target="1.8" />
+      <module name="SparkTutorial_main" target="1.8" />
+      <module name="SparkTutorial_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

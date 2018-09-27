@@ -12,12 +12,9 @@ public class sparkRunner {
         } else {
 
         }
-        TutorialFunctions tf = null;
-        if (args.length==3 && args[2].equals("forceLocal")){
-             tf = new TutorialFunctions(true);
-        } else {
-             tf = new TutorialFunctions(false);
-        }
+
+        TutorialFunctions tf = new TutorialFunctions();
+
         tf.WordCount(args[0],args[1]);
         //tf.ClosureDemo();
         //tf.PrintValues();
